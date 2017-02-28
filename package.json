@@ -26,18 +26,18 @@
     "mdast-util-to-string": "^1.0.1"
   },
   "peerDependencies": {
-    "remark": "^3.2.0"
+    "remark": "^7.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.4.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-register": "^6.4.3",
     "chai": "^3.4.1",
-    "mocha": "^2.3.4",
-    "mocha-tap13": "0.0.3",
-    "readme-assert": "^2.0.1",
-    "remark": "^4.1.2",
-    "standard": "^6.0.8"
+    "mocha": "^3.2.0",
+    "mocha-tap13": "^1.0.4",
+    "readme-assert": "^5.0.2",
+    "remark": "^7.0.0",
+    "standard": "^8.6.0"
   },
   "files": [
     "lib"

@@ -1,6 +1,6 @@
 var toString = require('mdast-util-to-string')
 
-module.exports = function attacher (remark, options = {}) {
+module.exports = function attacher (options = {}) {
   return function transformer (root) {
     let heading = {
       type: 'heading',
@@ -16,7 +16,7 @@ module.exports = function attacher (remark, options = {}) {
         root.children[0] = heading
       }
     } else {
-      root.children.splice(0, 0, heading)
+      root.children.unshift(heading)
     }
   }
 }

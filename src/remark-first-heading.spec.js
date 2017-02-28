@@ -1,4 +1,4 @@
-/*global describe, it */
+/* global describe, it */
 import { expect } from 'chai'
 import remark from 'remark'
 import firstHeading from './remark-first-heading'
@@ -10,8 +10,8 @@ function test (expected, actual) {
   expect(process(expected)).to.eq(clean(actual))
 }
 function process (string) {
-  let r = remark.use(firstHeading, {heading: 'heading'})
-  return r.stringify(r.run(r.parse(string)))
+  const r = remark().use(firstHeading, {heading: 'heading'})
+  return r.processSync(string).toString()
 }
 
 describe('Remark First Heading', () => {

@@ -11,8 +11,8 @@ import firstHeading from 'remark-first-heading'
 let someMarkdown = `
 # wrong heading
 `
-let r = remark.use(firstHeading, {heading: 'Correct Heading'})
-r.stringify(r.run(r.parse(someMarkdown))).trim()
+let r = remark().use(firstHeading, {heading: 'Correct Heading'})
+r.processSync(someMarkdown).toString().trim()
 //=> "# Correct Heading"
 ```
 
