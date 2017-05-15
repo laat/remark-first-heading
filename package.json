@@ -1,6 +1,6 @@
 {
   "name": "remark-first-heading",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "lib/remark-first-heading",
   "scripts": {
     "clean": "rm -rf lib",
