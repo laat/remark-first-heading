@@ -7,7 +7,7 @@
     "build": "babel src/. -d lib/. --ignore=spec.js",
     "test": "npm run test:readme && npm run test:spec",
     "test:readme": "readme-assert",
-    "test:spec": "mocha --require babel-register --reporter mocha-tap13 src/**/*.spec.js",
+    "test:spec": "mocha --require babel-register src/**/*.spec.js",
     "lint": "standard src/**/*.js",
     "prebuild": "npm run clean",
     "prepublish": "npm run build"
@@ -23,21 +23,20 @@
     "url": "https://github.com/laat/remark-first-heading.git"
   },
   "dependencies": {
-    "mdast-util-to-string": "^1.0.1"
+    "mdast-util-to-string": "^1.0.2"
   },
   "peerDependencies": {
-    "remark": "^7.0.0"
+    "remark": "^7.0.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.4.0",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-register": "^6.4.3",
-    "chai": "^3.4.1",
-    "mocha": "^3.2.0",
-    "mocha-tap13": "^1.0.4",
-    "readme-assert": "^5.0.2",
-    "remark": "^7.0.0",
-    "standard": "^9.0.2"
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "readme-assert": "^5.0.5",
+    "remark": "^7.0.1",
+    "standard": "^10.0.2"
   },
   "files": [
     "lib"
