@@ -1,6 +1,6 @@
 {
   "name": "remark-first-heading",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "main": "lib/remark-first-heading",
   "scripts": {
     "clean": "rm -rf lib",
@@ -44,8 +44,12 @@
     "readme-assert": "^5.0.5",
     "remark": "^8.0.0"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }
