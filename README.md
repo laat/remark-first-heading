@@ -4,16 +4,14 @@ Replace the first top-level heading in a markdown document
 
 # Usage
 ```javascript
-import remark from 'remark'
-import firstHeading from 'remark-first-heading'
+import remark from 'remark';
+import firstHeading from 'remark-first-heading';
 
+const r = remark().use(firstHeading, { heading: 'Correct Heading' });
 
-let someMarkdown = `
-# wrong heading
-`
-let r = remark().use(firstHeading, {heading: 'Correct Heading'})
-r.processSync(someMarkdown).toString().trim()
-//=> "# Correct Heading"
+const someMarkdown = '# wrong heading';
+r.processSync(someMarkdown).toString();
+//=> "# Correct Heading\n"
 ```
 
 ## License
