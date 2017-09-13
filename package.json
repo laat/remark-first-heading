@@ -30,19 +30,19 @@
     "mdast-util-to-string": "^1.0.2"
   },
   "peerDependencies": {
-    "remark": "^7.0.1"
+    "remark": "^7.0.1 || ^8.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.24.1",
-    "chai": "^3.5.0",
+    "chai": "^4.1.2",
     "husky": "^0.14.3",
     "lint-staged": "^4.1.3",
     "mocha": "^3.4.1",
     "prettier": "^1.6.1",
     "readme-assert": "^5.0.5",
-    "remark": "^7.0.1"
+    "remark": "^8.0.0"
   },
   "files": ["lib"],
   "babel": {
