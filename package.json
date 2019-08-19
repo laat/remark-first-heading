@@ -38,7 +38,7 @@
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "husky": "^3.0.3",
-    "lint-staged": "^9.2.1",
+    "lint-staged": "^9.2.3",
     "mocha": "^6.2.0",
     "prettier": "^1.18.2",
     "readme-assert": "^5.0.5",
