@@ -27,7 +27,7 @@
     "singleQuote": true
   },
   "dependencies": {
-    "mdast-util-to-string": "^1.0.8"
+    "mdast-util-to-string": "^1.1.0"
   },
   "peerDependencies": {
     "remark": "^7.0.1 || ^8.0.0"
