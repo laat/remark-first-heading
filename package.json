@@ -39,7 +39,7 @@
     "@babel/register": "^7.9.0",
     "chai": "^4.2.0",
     "mocha": "^7.1.1",
-    "prettier": "^2.0.4",
+    "prettier": "^2.0.5",
     "readme-assert": "^6.0.3",
     "remark": "^12.0.0"
   },
