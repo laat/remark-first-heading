@@ -41,7 +41,7 @@
     "mocha": "^8.0.1",
     "prettier": "^2.0.5",
     "readme-assert": "^6.0.3",
-    "remark": "^12.0.0"
+    "remark": "^12.0.1"
   },
   "files": [
     "lib"
