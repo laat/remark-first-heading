@@ -38,7 +38,7 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/register": "^7.10.5",
     "chai": "^4.2.0",
-    "mocha": "^8.0.1",
+    "mocha": "^8.1.0",
     "prettier": "^2.0.5",
     "readme-assert": "^6.0.3",
     "remark": "^12.0.1"
